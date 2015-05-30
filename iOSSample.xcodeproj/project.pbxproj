@@ -13,7 +13,7 @@
 		DB8641DF1B19DD250088DABF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8641DE1B19DD250088DABF /* Images.xcassets */; };
 		DB8641E21B19DD250088DABF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8641E01B19DD250088DABF /* LaunchScreen.xib */; };
 		DB8641EE1B19DD260088DABF /* iOSSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8641ED1B19DD260088DABF /* iOSSampleTests.m */; };
-		DB8641F91B19FE620088DABF /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8641F81B19FE620088DABF /* TableViewController.m */; };
+		DB8641FC1B1A21700088DABF /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8641FB1B1A21700088DABF /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,8 @@
 		DB8641E71B19DD260088DABF /* iOSSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8641EC1B19DD260088DABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB8641ED1B19DD260088DABF /* iOSSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSSampleTests.m; sourceTree = "<group>"; };
-		DB8641F71B19FE620088DABF /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
-		DB8641F81B19FE620088DABF /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		DB8641FA1B1A21700088DABF /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		DB8641FB1B1A21700088DABF /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,8 @@
 		DB8641D01B19DD250088DABF /* iOSSample */ = {
 			isa = PBXGroup;
 			children = (
-				DB8641F71B19FE620088DABF /* TableViewController.h */,
-				DB8641F81B19FE620088DABF /* TableViewController.m */,
+				DB8641FA1B1A21700088DABF /* TableViewController.h */,
+				DB8641FB1B1A21700088DABF /* TableViewController.m */,
 				DB8641D51B19DD250088DABF /* AppDelegate.h */,
 				DB8641D61B19DD250088DABF /* AppDelegate.m */,
 				DB8641D81B19DD250088DABF /* ViewController.h */,
@@ -223,7 +223,7 @@
 				DB8641DA1B19DD250088DABF /* ViewController.m in Sources */,
 				DB8641D71B19DD250088DABF /* AppDelegate.m in Sources */,
 				DB8641D41B19DD250088DABF /* main.m in Sources */,
-				DB8641F91B19FE620088DABF /* TableViewController.m in Sources */,
+				DB8641FC1B1A21700088DABF /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +410,7 @@
 				DB8641F31B19DD260088DABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB8641F41B19DD260088DABF /* Build configuration list for PBXNativeTarget "iOSSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +419,7 @@
 				DB8641F61B19DD260088DABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
